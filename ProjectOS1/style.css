@@ -8,7 +8,7 @@ body{
     /*font-family: 'Roboto', sans-serif;*/
 }
 .breakpoint{
-    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
     text-align: center;
 }
 .breakpoint a{
@@ -20,8 +20,8 @@ body{
 }
 .header{
     width: 55vw;
-    margin: 0 auto;
-    margin-top: 21px;
+    margin: 21px auto 0;
+
 }
 .navigation{
     display: flex;
@@ -49,16 +49,15 @@ body{
 .hero-content h1{
     font-size: 70px;
     line-height: 75px; /* 108% */
-    letter-spacing: 0.68px;
+    letter-spacing: 1px;
     font-style: normal;
     font-weight: 400;
 }
 .hero-content p{
-    margin: 0 auto;
+    margin: 55px auto 0;
     width: 55%;
     font-size: 21px;
     line-height: 130%;
-    margin-top: 55px;
 }
 .header-btns{
     display: flex;
@@ -70,7 +69,7 @@ body{
     padding: 16px 33px;
     border-radius: 36px;
     border: 1px solid #000;
-    background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
     color: #FFF;
     font-size: 15px;
     line-height: 20px; /* 133.333% */
@@ -101,7 +100,7 @@ body{
     color: #618ADC;
     font-size: 15px;
     line-height: 17px; /* 112% */
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 .frame{
@@ -111,8 +110,7 @@ body{
 }
 .commynity{
     width: 55vw;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin: 150px auto 0;
     display: flex;
 }
 .commynity-title1{
@@ -143,7 +141,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .stat-list li:nth-child(2) span{
-    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -159,13 +157,12 @@ body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27.3px; /* 170.625% */
+    line-height: 27px; /* 170.625% */
     text-transform: uppercase;
 }
 .commynity2{
     width: 55vw;
-    margin: 0 auto;
-    margin-top: 205px;
+    margin: 205px auto 0;
     display: flex;
 }
 .environment-link{
@@ -196,7 +193,7 @@ body{
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 33.04px; /* 118% */
+    line-height: 33px; /* 118% */
 }
 .commynity2-info div>p{
     margin-top: 10px;
@@ -223,8 +220,7 @@ body{
 }
 .build{
     width: 55vw;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin: 150px auto 0;
 }
 .build-top{
     display: flex;
@@ -303,7 +299,7 @@ body{
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px; /* 121.579% */
+    line-height: 46px; /* 121.579% */
     letter-spacing: 1px;
 }
 .slider-stats1, .slider-stats2, .slider-stats3{
@@ -368,13 +364,13 @@ body{
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px; /* 121.579% */
+    line-height: 46px; /* 121.579% */
     letter-spacing: 1px;
 }
 .slider-btn{
     border-radius: 36px;
     border: 1px solid #000;
-    background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
     padding: 15px 25px;
     color: #FFF;
     text-align: center;
@@ -396,8 +392,7 @@ footer{
 }
 .footer-wrap{
     width: 55vw;
-    margin: 0 auto;
-    margin-top: 81px;
+    margin: 81px auto 0;
     display: flex;
     justify-content: space-between;
 }
